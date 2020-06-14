@@ -6,7 +6,9 @@ self.addEventListener('install', function(event) {
           '/',
           '/index.html',
           '/src/css/app.css',
-          '/src/js/app.js'
+          '/src/js/app.js',
+          '/manifest.json',
+          '/favicon.ico'
         ])
       })
   );
